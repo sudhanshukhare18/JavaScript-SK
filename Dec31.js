@@ -1,0 +1,1 @@
+//wap user input 123 addition(digit sum) using function WANR
