@@ -12,9 +12,9 @@ function c2(){
 
 if(c<0){
 
-    let h1=document.getElementById('1h');
-    h1  .textContent="Yow have Bought"
-
+    let h12=document.getElementById('1h');
+    h12.textContent="Yow have Bought"
+    document.write(h12)
 }
 if(b<0){
     document.write()
