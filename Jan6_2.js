@@ -27,4 +27,5 @@ function pink1(colorr){
 function f1(){
     let para=document.getElementById('para')
     para.classList.add('drk')
+    
 }
