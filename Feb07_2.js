@@ -1,14 +1,14 @@
 
 
 
-function forms(){
-    let namee=document.getElementById('nameE').values
-    let cityy=document.getElementById('city').values
-    let addr=document.getElementById('addess').values
-    let contactt=document.getElementById('mob').values
+function fun(){
+    let namee=document.getElementById('nameE').value
+    let cityy=document.getElementById('city').value
+    let addr=document.getElementById('addess').value
+    let contactt=document.getElementById('mob').value
     
     
-    localStorage.setItem("NameE",namee)
+    localStorage.setItem("Name",namee)
     localStorage.setItem("Address",addr)
     localStorage.setItem("Contact",contactt)
     localStorage.setItem("Town",cityy)

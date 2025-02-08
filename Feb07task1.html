@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: aliceblue;
+            margin-left: 600px;
+        }
+
+        .backvideonav{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(max-aspect-ratio:16/99){
+    .backvideonav{
+        height: 100%;
+        width: auto;
+    }
+}
+    #form1e input{
+        padding: 20px;
+       border-radius: 25px;
+       border: 0px;
+    }       
+    #form2e input{
+        padding: 20px;
+        border-radius: 25px;
+       border: 0px;
+    }
+    #jus{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 50px;
+    }
+    #h1e{
+        padding-top: 140px;
+        color: blue;
+    }
+
+    </style>
+</head>
+<body>
+    <video muted loop autoplay play-inline class="backvideonav">
+        <source src="Images/27584-364638016.mp4" type="video/mp4">
+    </video>
+    <div id="jus">
+    <form action="" onsubmit="cleardata()" id="form1e">
+        <input type="submit" value="Clear Data">
+    </form>
+    <form action="" onsubmit=" return show()" id="form2e">
+        <input type="submit" value="Show Data">
+    </form>
+</div>
+    <h1 id="h1e"></h1>
+    <h1 id="h1a"></h1>
+    <h1 id="h1b"></h1>
+    <h1 id="h1c"></h1>
+    <h1 id="h1d"></h1>
+    <script src="Feb07task.js"></script>
+</body>
+</html>

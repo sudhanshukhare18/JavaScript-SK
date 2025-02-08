@@ -1,0 +1,47 @@
+#froms input{
+
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+#froms input:hover{
+    background-color: antiquewhite;
+}
+#froms label{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 30px;
+    color: whitesmoke;
+
+}
+#age{
+    margin-left: 20px;
+}
+#submitt input{
+    padding-right: 50px;
+    text-align: center;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+#submitt input:hover{
+    box-shadow: 1px 1px 20px 10px rgb(45, 14, 45);
+    transition: all 2s;
+    background-color: antiquewhite;
+    border: 0px solid ;
+}
+form{
+    padding-top: 200px;
+    padding-left: 600px;
+}
+.backvideonav{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(max-aspect-ratio:16/99){
+    .backvideonav{
+        height: 100%;
+        width: auto;
+    }
+}
