@@ -1,22 +1,11 @@
 {
-    "student":[
-        {
-            "name":"sudhanshu",
-            "age":19,
-            "contact":123456,
-            "city":"bhopal"
-        },
-        {
-            "name":"Amit",
-            "age":21,
-            "contact":123456,
-            "city":"Indore"
-        },
-        {
-            "name":"Amit",
-            "age":41,
-            "contact":123456,
-            "city":"Sapno ka Sahar"
-        }
-    ]
+  "student": [
+    {
+      "id": "0034",
+      "name": "ysmys",
+      "age": "18",
+      "contact": "43522",
+      "city": "Sapno ka sahar"
+    }
+  ]
 }
